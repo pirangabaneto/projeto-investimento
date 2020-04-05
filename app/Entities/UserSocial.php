@@ -24,13 +24,6 @@ class UserSocial extends Model
   protected $fillable = ['user_id', 'social_network', 'social_id', 'social_email', 'social_avatar', 'social_email'];
 
   /**
-   * The attributes that should be hidden for arrays.
-   *
-   * @var array
-   */
-  protected $hidden = ['password', 'remember_token'];
-
-  /**
    * The attributes that should be cast to native types.
    *
    * @var array
